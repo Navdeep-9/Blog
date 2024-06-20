@@ -30,7 +30,7 @@ const KEY = process.env.KEY
 
 
 // connect databse
-const URL = process.env.URL;
+const URL = "mongodb+srv://navdeepsinghstealth:GuwvAscwJCNV2C0s@blogify.qrrxmps.mongodb.net/"
 connection(URL).then(()=>{
     console.log('connection Estalblised With DB');
 })
